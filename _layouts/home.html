@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saravanakumar | GenAI Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      display: flex;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    nav {
+      width: 220px;
+      background-color: #212529;
+      color: white;
+      height: 100vh;
+      padding: 2rem 1rem;
+      position: fixed;
+    }
+    nav h2 {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5rem;
+    }
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 1rem 0;
+      font-weight: 300;
+    }
+    .main {
+      margin-left: 220px;
+      padding: 2rem;
+      width: calc(100% - 220px);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-weight: 300;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 1.2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      transition: 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .tag {
+      display: inline-block;
+      background: #d1e7dd;
+      color: #0f5132;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 1rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Saravanakumar</h2>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Resume</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="main">
+    <h1>Hey, I'm Saravanakumar 👋</h1>
+    <p class="subtitle">GenAI Engineer | Cloud & MLOps | 3+ YOE | Passionate about AI deployment & real-world impact</p>
+    <div class="grid">
+      <div class="card">
+        <img src="https://placehold.co/400x200" alt="Project Thumbnail">
+        <h3>Document Q&A Bot</h3>
+        <p>Built an enterprise-ready RAG chatbot for internal documentation using LangChain & Azure OpenAI.</p>
+        <span class="tag">LangChain</span>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400x200" alt="Project Thumbnail">
+        <h3>GenAI Pipeline with MLflow</h3>
+        <p>Orchestrated fine-tuning & versioning of LLMs using MLflow, DVC, and GitHub Actions in a CI/CD setup.</p>
+        <span class="tag">MLOps</span>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400x200" alt="Project Thumbnail">
+        <h3>Azure ChatOps Assistant</h3>
+        <p>Integrated a GPT-based Copilot with Azure DevOps to support incident triaging and automation.</p>
+        <span class="tag">Azure</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
