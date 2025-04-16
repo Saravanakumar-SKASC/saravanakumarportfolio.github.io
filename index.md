@@ -1,12 +1,30 @@
-# Welcome to My GenAI & MLOps Portfolio
+---
+layout: default
+title: "Saravanakumar | GenAI Engineer"
+---
 
-Welcome to my portfolio, where I showcase my journey and expertise in Generative AI, MLOps, and AI-driven cloud solutions. Below you'll find a collection of projects and blog posts highlighting my work and knowledge in these fields.
+# 👋 Hi, I'm Saravanakumar
 
-## About Me
-I am passionate about AI, particularly in deploying models at scale with MLOps practices. I'm focused on building solutions that merge AI and cloud technology, enabling businesses to leverage the power of machine learning and AI.
+🚀 Passionate AI & Cloud Engineer  
+📍 Based in Ireland | GenAI • MLOps • Azure  
+🧠 Building scalable, intelligent solutions with LangChain, Azure, and LLMs.
 
-## Projects & Blog
-Explore my AI-driven projects and the blog posts I write to share my learnings.
+---
 
-## Contact Me
-Feel free to get in touch with me via my [LinkedIn](https://www.linkedin.com/in/danny).
+## 🔥 Featured Projects
+
+### 1. 🧠 LangChain Q&A System
+- **Tech:** LangChain, OpenAI, Streamlit
+- Built a Q&A system using retrieval-augmented generation.
+- [View Project](./2024-10-01-langchain-qna)
+
+### 2. ☁️ Azure MLOps Pipeline (Coming soon)
+- CICD setup for ML training & deployment on Azure ML.
+
+---
+
+## 📫 Contact
+
+- [LinkedIn](https://linkedin.com/in/YOURUSERNAME)
+- [GitHub](https://github.com/saravanakumar)
+- [Email](mailto:YOUR_EMAIL@example.com)
